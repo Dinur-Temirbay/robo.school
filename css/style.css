@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.container {
+    max-width: 80%;
+    margin: 0 10%;
+}
+
+/* ! Header */
+header {
+    background-color: #141024;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.tel {
+    font-weight: 600;
+}
+.header__info {
+    float: left;
+    width: 48%;
+    margin: 15% 0 0 0;
+}
+.header__title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 112px;
+}
+.header__text {
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+}
+.btn {
+    background-color: #D52027;
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 18px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover, .btn2:hover {
+    background-color: #fff;
+    color: #D52027;
+}
+.main__img {
+    float: right;
+    width: 47.5%;
+}
+/* ! Конец */
+
+
+
+
+
+/* !  Content */
+.content {
+    margin: 5% 0%;
+}
+.content__text {
+    font-size: 25px;
+    font-weight: 400;
+    width: 60%;
+    margin-bottom: 5%;
+}
+.content__info {
+    display: flex;
+}
+.info__num {
+    font-weight: 600;
+    color: #D52027;
+    font-size: 45px;
+}
+.info__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+/* ! Конец */
+
+
+
+
+
+/* ! Info */
+.info {
+    background: #F9F9F9;
+    padding: 5% 0%;
+}
+.info__title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 5%;
+    margin: 0;
+}
+.info__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+}
+.item__title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 5% 0;
+}
+.item__text {
+    font-weight: 400;
+    font-size: 18px;
+}
+/* ! Конец */
+
+
+
+
+
+/* ! Price__info */
+.price__info {
+    margin: 5% 0;
+}
+.price__banner {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+}
+.banner {
+    width: 30%;
+    height: 35%;
+    border: 1px solid #141024;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+}
+.banner:hover {
+    background-color: #141024;
+    color: #fff;
+}
+.banner__title {
+    font-weight: 600;
+    font-size: 25px;
+}
+.price {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 112px;
+}
+.banner__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+.btn2 {
+    background-color: #D52027;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+}
+/* ! Конец */
+
+
+
+
+
+/* !  Discount */
+.discount {
+    background-image: url("/img/footer__img.png");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.discount__item {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0% 8% 0%;
+}
+.discount__info {
+    width: 30%;
+}
+.discount__title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.discount__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.discount__form {
+    width: 30%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: #fff;
+    padding: 5% 5%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.btn3 {
+    background-color: #141024;
+    padding: 5% 0%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2%;
+    color: #fff;
+}
+/* ! Конец */
+
+
+
+
+
+/* ! Footer */
+footer {
+    background-color: #141024;
+    color: #fff;
+    padding: 2% 10%;
+    position: relative;
+}
+.footer__item {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__sub {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.tel2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+/* ! Конец */
+
+
+
+
+
+
+/* ! Адаптив */
+@media (max-width: 390px) {
+    /* * Header */
+    header {
+        height: 550px;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    ul {
+        font-size: 8px;
+        gap: 12px;
+    }
+    .tel {
+        font-size: 12px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__title {
+        font-size: 25px;
+        line-height: 70px;
+        width: 80vw;
+        text-align: center;
+    }
+    .header__text {
+        font-size: 12px;
+        width: 80vw;
+        text-align: center;
+    }
+    .main__img {
+        width: 79.5%;
+        margin: 10% auto;
+    }
+    .btn {
+        position: absolute;
+        bottom: 120px;
+        font-size: 12px;
+        padding: 5% 27%;
+    }
+    /* * Content */
+    .content__text {
+        font-size: 17px;
+        width: 90%;
+    }
+    .content__info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .info__title {
+        text-align: center;
+        font-size: 28px;
+    }
+    .info__num {
+        font-size: 40px;
+    }
+    .info__text {
+        width: 60vw;
+        margin: 0% auto 5%;
+        font-size: 15px;
+    }
+    /* * Info */
+    .info__items {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .item__title {
+        font-size: 22px;
+    }
+    .item__text {
+        font-size: 18px;
+    }
+    /* * Banner */
+    .price__banner {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        width: 70%;
+        height: 50%;
+        margin: 10% 15%;
+    }
+    .btn2 {
+        font-size: 12px;
+        padding: 10px 15px;
+        margin: 30px;
+    }
+    /* * Discount */
+    .discount__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .discount__info {
+        width: 100%;
+        text-align: center;
+    }
+    .discount__title {
+        font-size: 32px;
+    }
+    .discount__form {
+        margin-top: 10%;
+        width: 100%;
+    }
+    /* * Footer */
+    .footer__item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        text-align: center;
+        padding: 10% 0% 30% 0%;
+    }
+    .footer__sub {
+        position: absolute;
+        bottom: 25%;
+        left: 40%;
+    }
+    .tel2 {
+        margin-top: 5%;
+    }
+}
+/* ! Конец */
