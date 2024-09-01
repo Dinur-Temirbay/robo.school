@@ -1,2 +1,1 @@
-StackTechnology.txt:
 Html + Css
